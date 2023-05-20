@@ -1,0 +1,93 @@
+:root{
+    --primarycolor:#3ab3a7;
+    --primaryhowever:#0c988a;
+    --secondrycolor:#059789;
+    --sechowevercolor:#253b53;
+    --greycolor:#f7f7f7;
+    }
+    .discount {
+        width:400px;
+        height: 100%;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .image8{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+
+    }
+/* .textdiv1{
+position: absolute;
+display: grid;
+padding: 2rem;
+color: var(--primarycolor);
+text-align: center;
+gap: 1rem;
+}  */
+.title{
+    font-size: 16px;
+    font-weight: 700;
+}
+.input{
+    
+    flex-direction: column;
+    gap: 1rem;
+    /* background-color: var(--primarycolor); */
+    padding: -8rem;
+    outline: none;
+    color: aliceblue;
+}
+.btn1{
+background: #c3fff95f;
+padding: -8rem;
+border: none;
+outline: none;
+color: var(--primaryhowever);
+font-size: 17px;
+width: 50%;
+border-radius: 5px;
+padding: 1rem 2rem;
+}
+::placeholder{
+    color: var(--primaryhowever);
+    font-size: 12px;
+
+}
+@media screen and(min-width:520px) {
+    .discount .setCountainer .textdiv{
+        gap:2rem;
+
+
+    }
+    .title{
+        font-size: 25px;
+
+    }
+    .p{
+        font-size: 18px;
+        max-width: 500px;
+        padding: 0 3rem;
+
+
+    }
+    .input .btn1{
+        font-size: 16px;
+
+    }
+    
+}
+@media screen and(min-width:1024px) {
+    .discount .setCountainer .textdiv{
+        gap: 2rem;
+    }
+    .title{
+        font-size: 30px;
+
+    }
+    
+    
+}

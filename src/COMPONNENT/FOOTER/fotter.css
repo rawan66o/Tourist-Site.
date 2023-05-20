@@ -1,0 +1,169 @@
+:root{
+    --primarycolor:#3ab3a7;
+    --primaryhowever:#0c988a;
+    --secondrycolor:#059789;
+    --sechowevercolor:#253b53;
+    --greycolor:#f7f7f7;
+    }
+    .footer{
+        background: var(--primarycolor);
+
+    }
+    .seccountainer {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+
+    }
+    .content{
+        gap:1rem;
+        padding: 2.5rem 0;
+    }
+    .row{
+        color: white;
+
+    }
+    .spantext{
+        font-weight: 800;
+        color: #253b53;
+        /* background-color: #253b53; */
+        padding: 1rem 0;
+    }
+    .contactdiv{
+        display: grid;
+        gap: -5rem;
+        
+    }
+    .flex{
+        gap: -5rem;
+
+    }
+    .icon{
+        font-size: 15px;
+        color: var(--sechowevercolor);
+    }
+    span{
+        font-size: 14px;
+
+    }
+    .singlenews{
+margin-bottom: 1rem;
+
+    }
+    .text{
+        font-size: 14px;
+
+    }
+    .p{
+        padding-top: -4rem;
+
+    }
+ .li{
+font-size: 14px;
+cursor: pointer;
+padding-bottom: 5%;
+    }
+    .footerlinks ul li:hover{
+        color:#253b53
+
+    }
+    .content{
+
+    }
+    .btndiv{
+        padding: 1rem;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        gap: 1rem;
+        background-color: var(--secondrycolor);
+        color: var(--sechowevercolor);
+        /* color: #253b53; */
+        border-radius: 10px;
+        margin-bottom: 1rem;
+
+    }
+    .socialflex{
+        gap:-5rem;
+    }
+    .icon{
+        font-size: 10%;
+        cursor: pointer;
+
+    }
+    .icon:hover{
+        color: #f7f7f7;
+    }
+    @media screen and (min-width:769px) { 
+        .closeNavbar, .toggelNavbar
+ {
+
+display: none;
+
+
+ }
+   .menudiv .menulist {
+flex-direction: row;
+display: flex;
+padding:0 5rem; 
+
+                }}
+ .navitem{
+padding: 0 0.5rem;
+        }
+ .menulink{
+    color: white;
+    font-size: 14px;
+ }
+  .menulink:hover 
+  {
+  color: var(--sechowevercolor);
+  
+
+  }
+
+ .socialicons{
+    gap: 0.5rem ;
+ }
+ .icon{
+    color: white;
+    font-size: 30px;
+
+ }
+@media screen and(min-width:1240px) {
+    .header{
+        padding: 2.5rem;
+        
+    }
+    .menulist{
+        padding: 0 1rem;
+
+    }
+    .navitem{
+        padding: 0 1rem;
+
+    }
+    .menulink{
+        color: white ;
+        font-size: 16px;
+    }
+    .socialicons{
+        gap :0.5rem;
+    
+    }
+    .icon{
+color: white;
+font-size: 22px;
+
+    
+}
+}
+/* @media screen and (min-width:574px) {
+    .footer .seccountainer .content{
+        grid-template-columns: repeat(3,1fr);
+        align-items: center;
+
+    }
+    
+} */

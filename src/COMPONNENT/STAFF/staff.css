@@ -1,0 +1,90 @@
+/* :root{
+    --primarycolor:#3ab3a7;
+    --primaryhowever:#0c988a;
+    --secondrycolor:#059789;
+    --sechowevercolor:#253b53;
+    --greycolor:#f7f7f7;
+    } */:root{
+    --primarycolor:#3ab3a7;
+    --primaryhowever:#0c988a;
+    --secondrycolor:#059789;
+    --sechowevercolor:#253b53;
+    --greycolor:#f7f7f7;
+    }
+    .staff{
+        background: var(--greycolor);
+
+    }
+    .staffcountainer{
+ margin-top: 4rem;
+ gap: 4rem;
+ 
+
+
+    }
+    .singlestaffe{
+        position: relative;
+        background: white;
+        box-shadow: 0 3px 5px rgb(218,218,218);
+        padding: 1.5rem;
+        text-align: center;
+        border-radius: 10px;
+        transition:-4s ease ;
+
+        }
+        .singlestaffe:hover{
+            transform: translateY(-10px);
+
+
+        }
+        .imgdivo{
+            position: absolute;
+            height:80px ;
+            width: 80px;
+            right: 50px;
+            left:50%;
+            top:-23%;
+            border-radius: 50%;
+            overflow: hidden;
+            /* transform: translateX(-50px);
+             */
+             transform: translateX(-50%);
+            border: 10px solid white ;
+            /* margin-bottom: 16%; */
+
+        }
+        .f
+        {
+      padding: 1rem;
+      color: var(--primarycolor);
+      font-weight: 600;
+      font-size: larger;
+      text-align: center;
+        }
+        .name{
+            color: var(--primarycolor);
+            font-weight: 600;
+           padding-top: 3rem;
+           font-size: 14px;
+
+
+        }
+        .jobtitle 
+        {
+            color: var(--sechowevercolor);
+            font-weight: 600;
+            padding-top: 3rem;
+            font-size: 14px;
+            padding: -5rem;
+
+
+        }
+        .contact
+        {
+
+color: var(--primarycolor);
+font-size: 14px;
+font-weight: 500;
+padding:-5rem;
+
+        }
